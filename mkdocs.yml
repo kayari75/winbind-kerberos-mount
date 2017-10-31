@@ -1,0 +1,31 @@
+---
+site_name: CIFS & Kerberos
+theme: material
+extra_javascript:
+  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
+extra:
+  logo:
+    icon: description
+  palette:
+    primary: blue
+    accent: blue
+  font:
+    text: Roboto
+    code: Roboto Mono
+  palette:
+    primary: 'indigo'
+    accent: 'light blue'
+
+markdown_extensions:
+  - markdown_include.include
+  - markdown.extensions.admonition
+  - markdown.extensions.codehilite:
+      guess_lang: true
+  - markdown.extensions.toc:
+      permalink: true
+  - markdown.extensions.tables
+  - pymdownx.superfences
+  - pymdownx.arithmatex
+
+  
+...
